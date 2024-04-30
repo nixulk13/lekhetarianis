@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIXU STORE</title>
+    <style>
+        /* Ajoutez vos styles CSS ici */
+        /* Styles généraux */
+        /* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Gris clair */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333; /* Noir */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #333; /* Noir */
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Gris foncé */
+}
+
+
+/* Section des produits */
+section {
+    padding: 50px 0;
+}
+
+.product-category {
+    margin-bottom: 50px;
+}
+
+.product-category h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333; /* Noir */
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+    width: calc(33.33% - 20px);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h4 {
+    margin-top: 0;
+    color: #333;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #4CAF50; /* Vert */
+}
+
+.product button {
+    background-color: #4CAF50; /* Vert */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #45a049; /* Vert foncé */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Noir */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>NIXU STORE</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#pants">Pantalons</a></li>
+                <li><a href="#shoes">Chaussures</a></li>
+                <li><a href="#tshirts">T-shirts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="pants" class="product-category">
+        <div class="container">
+            <h3>Pantalons</h3>
+            <div class="products">
+                <div class="product">
+                    <img src="images/multi-2.jpg" alt="Pantalon élégant pour hommes">
+                    <h4>Pantalon élégant pour hommes</h4>
+                    <p>Description du produit...</p>
+                    <span class="price">5000 Da</span>
+                    <button>Acheter</button>
+                </div>
+                <div class="product">
+                    <img src="images/multi-1.jpg" alt="Jean décontracté pour femmes">
+                    <h4>Jean décontracté pour femmes</h4>
+                    <p>Description du produit...</p>
+                    <span class="price">3500 Da</span>
+                    <button>Acheter</button>
+                </div>
+                <div class="product">
+                    <img src="images/multi-3.jpg" alt="Short de sport pour hommes">
+                    <h4>Short de sport pour hommes</h4>
+                    <p>Description du produit...</p>
+                    <span class="price">2500 Da</span>
+                    <button>Acheter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shoes" class="product-category">
+        <div class="container">
+            <h3>Chaussures</h3>
+            <div class="products">
+                <div class="product">
+                    <img src="images/multi-4.JFIF" alt="Baskets confort pour femmes">
+                    <h4>Baskets confort pour femmes</h4>
+                    <p>Description du produit...</p>
+                    <span class="price">4500 Da</span>
+                    <button>Acheter</button>
+                </div>
+                <div class="product">
+                    <img src="images/multi-6.jfif" alt="Chaussures habillées pour hommes">
+                    <h4>Chaussures habillées pour hommes</h4>
+                    <p>Description du produit...</p>
+                    <span class="price">6000 Da</span>
+                    <button>Acheter</button>
+                </div>
+                <div class="product">
+                    <img src="images/multi-7.jfif" alt="Bottes d'hiver pour femmes">
+                    <h4>Bottes d'hiver pour femmes</h4>
+                    <p>Description du produit...</p>
+                    <span class="price">7000 Da</span>
+                    <button>Acheter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tshirts" class="product-category">
+        <div class="container">
+            <h3>T-shirts</h3>
+            <div class="products">
+                <div class="product">
+                    <img src="images/multi-8.jfif" alt="T-shirt tendance pour hommes">
+                    <h4>T-shirt tendance pour hommes</h4>
+                    <p>Description du produit...</p>
+                    <span class="price">2000 Da</span>
+                    <button>Acheter</button>
+                </div>
+                <div class="product">
+                    <img src="images/multi-9.jfif" alt="T-shirt décontracté pour femmes">
+                    <h4>T-shirt décontracté pour femmes</h4>
+                    <p>Description du produit...</p>
+                    <span class="price">1800 Da</span>
+                    <button>Acheter</button>
+                </div>
+                <div class="product">
+                    <img src="images/multi-10.jfif" alt="T-shirt sport pour hommes">
+                    <h4>T-shirt sport pour hommes</h4>
+                    <p>Description du produit...</p>
+                    <span class="price">2500 Da</span>
+                    <button>Acheter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mon Store de Vêtements</p>
+        </div>
+    </footer>
+</body>
+</html>
